@@ -98,9 +98,6 @@ button {
   gap: 20px;
   align-items: center;
   height: 80%;
-  /* padding-top: 50px; */
-  /* padding-bottom: 100px; */
-  outline: 1px black solid;
 }
 .four-img-head {
   display: flex;
@@ -159,4 +156,62 @@ button {
   justify-content: flex-end;
   font-size: 24px;
   font-weight: bolder;
+}
+/* container-signup */
+
+.container-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.blue-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 37%;
+  width: 70%;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+.create-two-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: whitesmoke;
+}
+.blue-box-title {
+  margin-bottom: 0;
+  font-size: 26px;
+  font-family: 'Lucida Sans';
+  font-weight: bolder;
+}
+.blue-box-text {
+  margin-top: 0;
+  font-family: 'Lucida Sans';
+  font-weight: 100;
+  color: #e5e7eb;
+}
+.btn-signup {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  height: 24%;
+  width: 14%;
+  font-size: 20px;
+  outline: 2px white solid;
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 17%;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
